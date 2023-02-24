@@ -10,7 +10,7 @@ For those interested (optional): add zoom from the d3 library, so that the chart
 
 ## Local App
 
-To run the TypeScript React web app locally, follow these steps:
+To run the Web app locally, follow these steps:
 
 1. Clone or download the repository to your local machine
 2. Open a terminal or command prompt in the root directory of the project
@@ -29,3 +29,10 @@ npm run start
 5. This script will serve the data via json-server on port 3002, while the web app will be hosted on port 3001
 
 6. You can visit your web app in the web browser on `localhost:3001`.
+
+7. If the app for some reason not working, make sure you have json-server installed correctly, if not, run
+
+```
+npm install -g json-server
+```
+Alternatively, one of the ports might be already in use.
