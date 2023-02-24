@@ -8,6 +8,10 @@ When hovering over the points on the chart, auxiliary lines projected onto the x
 Add a grid to the chart and a button that changes the background color of the chart. Each click changes the color to the next one from a predefined array of colors.
 For those interested (optional): add zoom from the d3 library, so that the chart can be zoomed in and out using the scroll.
 
+## Demo
+
+Demo app is accessible under link: https://simple-line-chart-dsrd4ghiu-macadox.vercel.app/
+
 ## Local App
 
 To run the Web app locally, follow these steps:
@@ -35,4 +39,4 @@ npm run start
 ```
 npm install -g json-server
 ```
-Alternatively, one of the ports might be already in use.
+8. Also, it's possible that one of the ports might be already in use, anyway, you can browse the results on the demo app: https://simple-line-chart-dsrd4ghiu-macadox.vercel.app/
